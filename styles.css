@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: black solid 2px
+}
+
+.static-box{
+    position: static
+}
+
+.relative-box{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.absolute-box{
+    position: absolute;
+margin-top: 10px;
+    margin-left: 15px;
+}
+
+.fixed-box{
+    position: fixed;
+
+}
