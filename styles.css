@@ -36,11 +36,135 @@ top: 10px;
 }
 .background-image-repeat{
 background-image: url(image.png);
-
+background-repeat:repeat-x repeat-y;
+background-size: 50%;
 }
 .Box1{
     z-index: 1;
+    position: absolute;
+    background-color:blueviolet
 }
 .Box2{
     z-index: 2;
+    background-color: aquamarine;
+    position: relative;
+    
+}
+.Question9{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+    border: black 2px solid;
+}
+.child1{
+    background-color: blue;
+    border: black 2px solid
+}
+.Question10{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 30);
+    border: black 2px solid;
+}
+.child2{
+    background-color: rgb(0, 255, 183);
+    border: black 2px solid
+}
+.Question11{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 500px;
+    background-color: brown;
+    border: black 2px solid;
+}
+.child3{
+    background-color: crimson;
+    border: black 2px solid
+}
+.Question12{
+    display:flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    background-color: darkolivegreen;
+    border: black 2px solid;
+}
+.child4{
+    background-color: rgb(49, 77, 84);
+    border: 2px black solid;
+}
+.Question13{
+    height:300px;
+    width:300px;
+    border:black 2px solid;
+    background-color: deepskyblue;
+    align-items: center;
+}
+.child5{
+    background-color: blue;
+    display: inline-block;
+    height: 50px;
+    width: 50px
+}
+.child6{
+    background-color: rgb(174, 42, 82);
+    display: inline-block;
+    height: 70px;
+    width: 50px
+}
+.child7{
+    background-color: rgb(119, 255, 0);
+    display: inline-block;
+    height: 100px;
+    width: 50px
+}
+.Question14{
+height: 500px;
+width: 500px;
+border: black solid 2px;
+background-color: salmon;
+display: flex;
+flex-wrap:wrap;
+align-content: center;
+}
+.flex{
+height:100px;
+width:100px;
+border: black 2px solid;
+display: inline-block;
+background-color: cornsilk;
+}
+.Question15{
+display:flex;
+height: 200px;
+width: 400px;
+background-color: maroon;
+border: black 2px solid
+}
+.flex4{
+    background-color: blueviolet;
+    width:100px;
+    height: 50px;
+    border: black 2px solid;
+    display: inline-block
+}
+.flex5{
+    background-color: rgb(120, 94, 144);
+    width:100px;
+    height: 50px;
+    border: black 2px solid;
+    display: inline-block;
+    flex-grow: 2
+}
+.flex6{
+    background-color: rgb(111, 108, 114);
+    width:100px;
+    height: 50px;
+    border: black 2px solid;
+    display: inline-block
 }
